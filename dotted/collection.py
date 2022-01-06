@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import collections
+import collections.abc as collections
 import json
 import re
 
 from abc import ABCMeta, abstractmethod
-
 from six import add_metaclass, string_types as basestring, iteritems
 
 
