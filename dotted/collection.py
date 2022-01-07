@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import collections.abc as collections
+try:
+    import collections.abc as collections
+except ImportError:
+    import collections
+
 import json
 import re
 
